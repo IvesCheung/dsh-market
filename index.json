@@ -81,7 +81,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/IvesCheung/dsh-sidebar-shrink",
-            "commit": "67a2cf408a34ae2c915add983854b80206f8c01c"
+            "commit": "a129e4845bb97187b7c7da5db12af19088382dd8"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5"
