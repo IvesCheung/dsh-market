@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "title": {
+    "en": "IvesCheung DSH plugins",
+    "zh": "IvesCheung 的 DSH 插件"
+  },
+  "description": {
+    "en": "Small, dependency-free client plugins for DeepSeek Harness.",
+    "zh": "写给 DeepSeek Harness 的小而克制的客户端插件。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {
+      "sidebar": {
+        "title": {
+          "en": "Sidebar",
+          "zh": "侧边栏"
+        }
+      },
+      "no-config": {
+        "title": {
+          "en": "No configuration",
+          "zh": "免配置"
+        }
+      }
+    },
+    "sortKeys": {
+      "added": {
+        "title": {
+          "en": "Added",
+          "zh": "新增时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-sidebar-shrink",
+      "title": {
+        "en": "Sidebar Shrink",
+        "zh": "侧栏收缩"
+      },
+      "description": {
+        "en": "Hide rarely used sidebar panels into More and remember it; one-click fold for every workspace group.",
+        "zh": "把很久不点的侧栏面板收进「更多」并记住；工作区一键全部折叠。"
+      },
+      "icon": "./icon.svg",
+      "author": "IvesCheung",
+      "homepage": "https://github.com/IvesCheung/dsh-sidebar-shrink#readme",
+      "repository": {
+        "url": "https://github.com/IvesCheung/dsh-sidebar-shrink"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "sidebar",
+          "collapse",
+          "panels",
+          "workspace"
+        ],
+        "labels": [
+          "sidebar",
+          "no-config"
+        ],
+        "sortKeys": {
+          "added": 1763600000
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1763600000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/IvesCheung/dsh-sidebar-shrink",
+            "commit": "047bac50553066210a3899e30b7c09435b79631f"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
